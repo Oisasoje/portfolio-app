@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-col text-white-600 my-5">
             <p className="text-white text-2xl font-semibold animatedYext">
-              {currentProject.title}{" "}
+              {currentProject.title}
             </p>
             <p className="animatedText">{currentProject.subdesc}</p>
           </div>
@@ -56,9 +56,13 @@ const Projects = () => {
             </div>
             <a
               className="flex items-center gap-2 cursor-pointer text-white-600"
-              href={currentProject.href}
-              target="_blank"
-              rel="noreferrer"
+              href={
+                currentProject.href.startsWith("http")
+                  ? currentProject.href
+                  : `https://${currentProject.href}`
+              }
+              target="_self"
+              rel="noopener noreferrer"
             >
               <p>Check Live Site</p>
               <img src="/assets/arrow-up.png" alt="arrow" />
