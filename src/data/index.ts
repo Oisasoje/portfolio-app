@@ -24,10 +24,10 @@ export const navLinks = [
 export const myProjects = [
   {
     title: "Peruse",
-    desc: "",
+    desc: "An interactive quiz platform built for a self-development community.",
     subdesc:
-      "Peruse is a quiz app I built for a self-development community, with 400+ questions and AI-powered feedback designed to make learning fun, memorable, and a little spicy.",
-    href: "peruse-quiz.vercel.app",
+      "A gamified learning platform featuring 400+ curated questions with AI-powered feedback, authentication, streak tracking, and a hearts system to drive daily engagement. Built with Firebase for real-time data sync and Zustand for optimized state management, serving an active community of learners with personalized progress tracking and reflection-based learning.",
+    href: "https://peruse-quiz.vercel.app",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/peruse-logo.jpg",
     logoStyle: {
@@ -37,34 +37,18 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
   {
-    title: "Bendah Store",
-    desc: "",
+    title: "The Cave Website",
+    desc: "The official website for a self-development and personal growth community.",
     subdesc:
-      "Bendah is a modern headless Shopify storefront built with Next.js, TypeScript, and Tailwind CSS. The project is actively evolving as features and optimizations are added.",
-    href: "bendah-store.vercel.app",
+      "A high-performance marketing website designed to communicate brand identity and drive community engagement. Features smooth animations via Framer Motion, fully responsive design across all devices, and optimized performance metrics. Implements SEO best practices and modern web standards to maximize reach and user experience.",
+    href: "https://housecave.org",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -74,34 +58,18 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
   {
     title: "Amazon Clone",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    desc: "An Amazon-inspired e-commerce clone built to simulate a real checkout experience.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "A full-featured e-commerce platform replicating Amazon's core shopping experience with dynamic product listings, persistent cart management, delivery date calculations, and real-time order total updates. Demonstrates complex state management, pricing logic with tax calculations, and responsive design patterns using Next.js and TypeScript for type-safe development.",
+    href: "https://amazon-project-virid.vercel.app",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -113,26 +81,10 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
     ],
   },
 ];
@@ -150,39 +102,39 @@ export const calculateSizes = ({
     deskScale: isSmall
       ? ([0.05, 0.05, 0.05] as [number, number, number])
       : isMobile
-      ? ([0.06, 0.06, 0.06] as [number, number, number])
-      : ([0.065, 0.065, 0.065] as [number, number, number]),
+        ? ([0.06, 0.06, 0.06] as [number, number, number])
+        : ([0.065, 0.065, 0.065] as [number, number, number]),
     deskPosition: isMobile
       ? ([0.5, -4.5, 0] as [number, number, number])
       : ([0.25, -8.5, 0] as [number, number, number]),
     cubePosition: isSmall
       ? ([4, -5, 0] as [number, number, number])
       : isMobile
-      ? ([5, -5, 0] as [number, number, number])
-      : isTablet
-      ? ([5, -5, 0] as [number, number, number])
-      : ([9, -5.5, 0] as [number, number, number]),
+        ? ([5, -5, 0] as [number, number, number])
+        : isTablet
+          ? ([5, -5, 0] as [number, number, number])
+          : ([9, -5.5, 0] as [number, number, number]),
     reactLogoPosition: isSmall
       ? ([2, 3, 0] as [number, number, number])
       : isMobile
-      ? ([4, 3.5, 0] as [number, number, number])
-      : isTablet
-      ? ([6, 4, 1] as [number, number, number])
-      : ([10, 7, 2] as [number, number, number]),
+        ? ([4, 3.5, 0] as [number, number, number])
+        : isTablet
+          ? ([6, 4, 1] as [number, number, number])
+          : ([10, 7, 2] as [number, number, number]),
     ringPosition: isSmall
       ? ([-5, 7, 0] as [number, number, number])
       : isMobile
-      ? ([-10, 10, 0] as [number, number, number])
-      : isTablet
-      ? ([12, 10, 0] as [number, number, number])
-      : ([24, 10, 0] as [number, number, number]),
+        ? ([-10, 10, 0] as [number, number, number])
+        : isTablet
+          ? ([12, 10, 0] as [number, number, number])
+          : ([24, 10, 0] as [number, number, number]),
     targetPosition: isSmall
       ? ([-5, -10, -10] as [number, number, number])
       : isMobile
-      ? ([-9, -10, -10] as [number, number, number])
-      : isTablet
-      ? ([-11, -7, -10] as [number, number, number])
-      : ([-13, -13, -10] as [number, number, number]),
+        ? ([-9, -10, -10] as [number, number, number])
+        : isTablet
+          ? ([-11, -7, -10] as [number, number, number])
+          : ([-13, -13, -10] as [number, number, number]),
   };
 };
 
