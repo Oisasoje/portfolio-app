@@ -26,7 +26,7 @@ export const myProjects = [
     title: "Peruse",
     desc: "An interactive quiz platform built for a self-development community.",
     subdesc:
-      "A gamified learning platform featuring 400+ curated questions with AI-powered feedback, authentication, streak tracking, and a hearts system to drive daily engagement. Built with Firebase for real-time data sync and Zustand for optimized state management, serving an active community of learners with personalized progress tracking and reflection-based learning.",
+      "Peruse is a web-based quiz app featuring 400+ curated questions and AI-powered feedback, designed to reinforce learning through reflection, personalization, and engaging challenges. Built using Zustand and Firebase.",
     href: "https://peruse-quiz.vercel.app",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/peruse-logo.jpg",
@@ -47,7 +47,8 @@ export const myProjects = [
     title: "The Cave Website",
     desc: "The official website for a self-development and personal growth community.",
     subdesc:
-      "A high-performance marketing website designed to communicate brand identity and drive community engagement. Features smooth animations via Framer Motion, fully responsive design across all devices, and optimized performance metrics. Implements SEO best practices and modern web standards to maximize reach and user experience.",
+      "The Cave website serves as the digital home for a self-development community, designed to communicate the brands mission, values, and resources. Built with modern frontend tooling, the project focuses on clean design, performance, and an engaging user experience.",
+
     href: "https://housecave.org",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
@@ -68,7 +69,7 @@ export const myProjects = [
     title: "Amazon Clone",
     desc: "An Amazon-inspired e-commerce clone built to simulate a real checkout experience.",
     subdesc:
-      "A full-featured e-commerce platform replicating Amazon's core shopping experience with dynamic product listings, persistent cart management, delivery date calculations, and real-time order total updates. Demonstrates complex state management, pricing logic with tax calculations, and responsive design patterns using Next.js and TypeScript for type-safe development.",
+      "This project recreates core Amazon functionality including product listings, cart management, delivery options, and order total calculations. It emphasizes state management, pricing logic, and responsive UI behavior using modern React and Next.js patterns.",
     href: "https://amazon-project-virid.vercel.app",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
@@ -142,20 +143,20 @@ export const workExperiences = [
   {
     id: 1,
     name: "OnePipe",
-    pos: "Intern",
+    pos: "Software Development Intern",
     duration: "November 2025 - Present",
     title:
-      "Developing integration readiness by exploring OnePipe's APIs, running simulated business scenarios, and organizing clear documentation to support the onboarding workflow.",
+      "Buit integration readiness by testing and buiding with OnePipe's fintech APIs, created comprehensive integration guides, and ran simulated business scenarios to streamline client onboarding, and test edge cases. Collaborated with product teams to improve developer experience and API documentation quality.",
     icon: "/assets/onepipe-logo.jpeg",
     animation: "salute",
   },
   {
     id: 2,
-    name: "Personal HQ",
-    pos: "CEO & Founder",
-    duration: "November 2025 - Present",
+    name: "Independent Developer",
+    pos: "Full-Stack Developer",
+    duration: "2024 - Present",
     title:
-      "Operating a full-time creation studio in my room, where new projects appear faster than I can finish them.",
+      "Building production-ready web applications from concept to deployment, including a gamified quiz platform with 400+ questions serving an active community, and multiple client projects. Specializing in React, TypeScript, and Firebase with a focus on user engagement, performance optimization, and scalable architecture. Dreaming a startup idea into live.",
     icon: "/assets/personal-project-img.png",
     animation: "clapping",
   },

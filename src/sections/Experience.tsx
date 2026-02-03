@@ -58,7 +58,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                )
+                ),
               )}
             </div>
           </div>
