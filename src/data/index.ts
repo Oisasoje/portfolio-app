@@ -23,10 +23,33 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "Gloo",
+    desc: "An open-source runtime instrumentation platform for Node.js applications.",
+    subdesc:
+      "Gloo is a lightweight observability and control layer that captures structured runtime events from Express applications, enabling developers to inspect requests, trace behavior, monitor performance, and understand system activity in real time. Built with TypeScript, Express, and a modular event-driven architecture.",
+    href: "https://www.npmjs.com/package/@oisasoje/gloo",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/peruse-logo.jpg",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      { id: 1, name: "Next.js", path: "/assets/nextjs.png" },
+      { id: 2, name: "Express", path: "/assets/express.png" },
+      { id: 3, name: "Prisma", path: "/assets/prisma.png" },
+      { id: 4, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 5, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
+    ],
+  },
+  {
     title: "Peruse",
     desc: "An interactive quiz platform built for a self-development community.",
     subdesc:
       "Peruse is a web-based quiz app featuring 400+ curated questions and AI-powered feedback, designed to reinforce learning through reflection, personalization, and engaging challenges. Built using Zustand and Firebase.",
+
     href: "https://peruse-quiz.vercel.app",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/peruse-logo.jpg",
@@ -41,6 +64,7 @@ export const myProjects = [
       { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
       { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
       { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
+      { id: 5, name: "Firebase", path: "/assets/firebase.png" },
     ],
   },
   {
@@ -50,16 +74,16 @@ export const myProjects = [
       "The Cave website serves as the digital home for a self-development community, designed to communicate the brands mission, values, and resources. Built with modern frontend tooling, the project focuses on clean design, performance, and an engaging user experience.",
 
     href: "https://housecave.org",
-    texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
-    spotlight: "/assets/spotlight2.png",
+    spotlight: "/assets/spotlight3.png",
     tags: [
-      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 1, name: "Next.js", path: "/assets/nextjs.png" },
       { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
       { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
       { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
@@ -82,7 +106,7 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
-      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 1, name: "Next.js", path: "/assets/nextjs.png" },
       { id: 2, name: "TailwindCSS", path: "/assets/tailwindcss.png" },
       { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
       { id: 4, name: "Framer Motion", path: "/assets/framer.png" },
@@ -156,7 +180,7 @@ export const workExperiences = [
     pos: "Full-Stack Developer",
     duration: "2024 - Present",
     title:
-      "Building production-ready web applications from concept to deployment, including a gamified quiz platform with 400+ questions serving an active community, and multiple client projects. Specializing in React, TypeScript, and Firebase with a focus on user engagement, performance optimization, and scalable architecture. Dreaming a startup idea into live.",
+      "Building production-ready web applications from concept to deployment, including a gamified quiz platform with 400+ questions serving an active community, and multiple client projects. Specializing in Next.js, TypeScript, Express.js, and Postgresql with a focus on user engagement, performance optimization, and scalable architecture. I love building products that solve real-world problems and create value for users. I am a fast learner and passionate about building innovative and user-centric applications.",
     icon: "/assets/personal-project-img.png",
     animation: "clapping",
   },

@@ -28,8 +28,8 @@ const About = () => {
               <p className="grid-headtext">Hi, I'm Victor</p>
               <p className="grid-subtext">
                 With 2 years of experience, I have honed my skills in frontend
-                development, creating responsive and user-friendly web
-                applications.
+                and backend development, creating responsive and user-friendly
+                web applications.
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in JavaScript/TypeScript with a focus on React and
-                Next.js ecosystems.
+                I specialize in JavaScript/TypeScript with a focus on Next.js
+                and Express ecosystems.
               </p>
             </div>
           </div>
